@@ -41,8 +41,6 @@ function Footer() {
             <Link to='/'>3</Link>
             <Link to='/'>4</Link>
           </div>
-        </div>
-        <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
             <h2>Blog</h2>
             <Link to='/'>1</Link>
@@ -51,11 +49,11 @@ function Footer() {
             <Link to='/'>4</Link>
           </div>
           <div class='footer-link-items'>
-            <h2>Social Media</h2>
-            <Link to='/'>Instagram</Link>
-            <Link to='/'>Facebook</Link>
-            <Link to='/'>Youtube</Link>
-            <Link to='/'>Twitter</Link>
+            <h2>Contact Us</h2>
+            <Link to='/'>1</Link>
+            <Link to='/'>2</Link>
+            <Link to='/'>3</Link>
+            <Link to='/'>4</Link>
           </div>
         </div>
       </div>
@@ -70,7 +68,7 @@ function Footer() {
           <div class='social-icons'>
             <Link
               class='social-icon-link facebook'
-              to='/'
+              to={{ pathname: "https://www.facebook.com/peeradmit/" }}
               target='_blank'
               aria-label='Facebook'
             >
@@ -78,7 +76,7 @@ function Footer() {
             </Link>
             <Link
               class='social-icon-link instagram'
-              to='/'
+              to={{ pathname: "https://www.instagram.com/peeradmit/" }}
               target='_blank'
               aria-label='Instagram'
             >
@@ -86,7 +84,7 @@ function Footer() {
             </Link>
             <Link
               class='social-icon-link youtube'
-              to='/'
+              to={{ pathname: "https://www.youtube.com/peeradmit/" }}
               target='_blank'
               aria-label='Youtube'
             >
@@ -94,15 +92,15 @@ function Footer() {
             </Link>
             <Link
               class='social-icon-link twitter'
-              to='/'
+              to={{ pathname: "https://www.twitter.com/peeradmit/" }}
               target='_blank'
               aria-label='Twitter'
             >
               <i class='fab fa-twitter' />
             </Link>
             <Link
-              class='social-icon-link twitter'
-              to='/'
+              class='social-icon-link linkedin'
+              to={{ pathname: "https://in.linkedin.com/company/peeradmit" }}
               target='_blank'
               aria-label='LinkedIn'
             >
