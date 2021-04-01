@@ -1,6 +1,15 @@
 import React from 'react';
 import '../../App.css';
+import Footer from '../Footer';
 
-export default function Products() {
-  return <h1 className='Y'>Y</h1>;
+
+function Y() {
+  return (
+    <>
+      <h1 className='Y'>Y</h1>
+      <Footer />
+    </>
+  );
 }
+
+export default Y;

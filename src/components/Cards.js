@@ -39,7 +39,7 @@ function Cards() {
               src='images/img-9.jpg'
               text='Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis sint iure iusto itaque, vitae eum voluptas rem ex? Voluptas amet natus expedita aut ratione vitae assumenda laboriosam ad distinctio nam.'
               label='Get Started'
-              path=''
+              path='/sign-up'
             />
           </ul>
         </div>
